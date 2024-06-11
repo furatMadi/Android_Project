@@ -30,6 +30,7 @@ public class LogInActivity extends AppCompatActivity {
     private TextView txtSignup;
     private Button btnForgot;
     private String userType;
+
     private CheckBox chkRemember;
     private TextView textView;
     private static final String LOGIN_URL = "http://192.168.1.23/android_project/login.php";

@@ -12,6 +12,7 @@ public class Main extends AppCompatActivity {
     private ImageView imgManager;
     private Intent intent;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

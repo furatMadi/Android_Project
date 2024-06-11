@@ -51,6 +51,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         btnSearch = findViewById(R.id.btnSearch);
     }
 
+
     private void verifyUser() {
         final String email = edtResetEmail.getText().toString().trim();
 

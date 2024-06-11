@@ -301,6 +301,7 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
                         Toast.makeText(SignUpActivity.this, error.toString(), Toast.LENGTH_LONG).show();
                         Log.d(TAG,error.toString());
                     }
+
                 }) {
             @Override
             protected Map<String, String> getParams() {

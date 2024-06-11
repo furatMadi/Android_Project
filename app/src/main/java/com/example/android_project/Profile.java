@@ -52,6 +52,7 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         populate();
 
+
         userEmail = getIntent().getStringExtra("user_email");
         txtEmail.setText(userEmail);
 

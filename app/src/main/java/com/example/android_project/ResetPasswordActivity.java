@@ -85,6 +85,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
             edtResetPass.setError("Passwords do not match");
             edtResetConfirm.requestFocus();
             return false;
+
         }
 
         return true;
